@@ -37,7 +37,7 @@ const VideoPlayer = () => {
     }, []);
 
     return (
-        <div className="absolute z-10">
+        <div className=" z-10">
             <section className="flex justify-center items-center w-full">
                 <div className={`${hover}`}>
                     <div className=" md:w-[500px] lg:w-[800px] w-full">
@@ -47,7 +47,8 @@ const VideoPlayer = () => {
                             playsInline
                             animate={controls}
                         >
-                            <source src="/Intro.mp4" type="video/mp4" />
+                            {/* <source src="/Intro.mp4" type="video/mp4" /> */}
+                            <source src="/welcome_con.webm" type="video/mp4" />
                         </motion.video>
                     </div>
                 </div>

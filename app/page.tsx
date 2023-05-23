@@ -7,7 +7,7 @@ import VideoPlayer from "@/components/VideoPlayer";
 // purple  bg-[#03040B]
 export default function Home() {
   return (
-    <main className="bg-[#03040B] flex flex-col items-center justify-center min-h-screen">
+    <main className="bg-[#03040B] flex flex-col items-center justify-center min-h-screen gap-4">
       {/* <VideoPlayer></VideoPlayer> */}
       {/* <Title></Title> */}
       <Avatar></Avatar>
